@@ -165,6 +165,82 @@ cardAsp2TextHover.addEventListener("mouseout", () => {
   }
 });
 
+//TITLE SPH OPENING CARD
+const cardSPHTitleHover = document.getElementById("cardSPH");
+cardSPHTitleHover.addEventListener("mouseover", () => {
+  let titleShow = document.getElementById("titleSPHCard");
+  const classCheck = document.getElementById("titleSPHCard");
+  if (classCheck.classList.contains("inActive")) {
+    titleShow.classList.remove("inActive");
+    titleShow.classList.add("active");
+  }
+});
+cardSPHTitleHover.addEventListener("mouseout", () => {
+  let titleShow = document.getElementById("titleSPHCard");
+  const classCheck = document.getElementById("titleSPHCard");
+  if (classCheck.classList.contains("active")) {
+    titleShow.classList.remove("active");
+    titleShow.classList.add("inActive");
+  }
+});
+
+//TEXT SPH OPENING CARD
+const cardSPHTextHover = document.getElementById("cardSPH");
+cardSPHTextHover.addEventListener("mouseover", () => {
+  let titleShow = document.getElementById("textSPHCard");
+  const classCheck = document.getElementById("textSPHCard");
+  if (classCheck.classList.contains("inActive")) {
+    titleShow.classList.remove("inActive");
+    titleShow.classList.add("active");
+  }
+});
+cardSPHTextHover.addEventListener("mouseout", () => {
+  let titleShow = document.getElementById("textSPHCard");
+  const classCheck = document.getElementById("textSPHCard");
+  if (classCheck.classList.contains("active")) {
+    titleShow.classList.remove("active");
+    titleShow.classList.add("inActive");
+  }
+});
+
+//TITLE SFFH OPENING
+const cardSFFHTitleHover = document.getElementById("cardSFFH");
+cardSFFHTitleHover.addEventListener("mouseover", () => {
+  let titleShow = document.getElementById("titleSFFHCard");
+  const classCheck = document.getElementById("titleSFFHCard");
+  if (classCheck.classList.contains("inActive")) {
+    titleShow.classList.remove("inActive");
+    titleShow.classList.add("active");
+  }
+});
+cardSFFHTitleHover.addEventListener("mouseout", () => {
+  let titleShow = document.getElementById("titleSFFHCard");
+  const classCheck = document.getElementById("titleSFFHCard");
+  if (classCheck.classList.contains("active")) {
+    titleShow.classList.remove("active");
+    titleShow.classList.add("inActive");
+  }
+});
+
+//TEXT SFFH OPENING CARD
+const cardSFFHTextHover = document.getElementById("cardSFFH");
+cardSFFHTextHover.addEventListener("mouseover", () => {
+  let titleShow = document.getElementById("textSFFHCard");
+  const classCheck = document.getElementById("textSFFHCard");
+  if (classCheck.classList.contains("inActive")) {
+    titleShow.classList.remove("inActive");
+    titleShow.classList.add("active");
+  }
+});
+cardSFFHTextHover.addEventListener("mouseout", () => {
+  let titleShow = document.getElementById("textSFFHCard");
+  const classCheck = document.getElementById("textSFFHCard");
+  if (classCheck.classList.contains("active")) {
+    titleShow.classList.remove("active");
+    titleShow.classList.add("inActive");
+  }
+});
+
 const lenis = new Lenis();
 
 /*Smooth animation*/
